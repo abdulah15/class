@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>JavaScript Class</h2>
+    <p>How to use a JavaScript Class.</p> 
+    <p id="student1"></p>
+    <p id="student2"></p>
+    <script>
+
+        class student {
+        constructor(name){
+        this.name = name;
+}
+}
+
+student1 = new student("Riya");
+document.getElementById("student1").innerHTML =
+"My name is " + student1.name
+student2 = new student("Tina");
+document.getElementById("student2").innerHTML =
+"My name is " + student2.name 
+
+</script>
+</body>
+</html>
